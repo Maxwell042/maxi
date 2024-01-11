@@ -1,0 +1,158 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  list-style: none;
+display: flex;
+}
+.nav-links li {
+  margin-left: 20px;
+}
+.nav-links a {
+  text-decoration: none;
+  font-weight: 600px;
+
+}
+a:hover{
+  color: red;
+}
+.content{
+padding: 20px;
+background: linear-gradient(0deg, rgba(0,0,0,0.30) 0%, rgba(0,0,0,0.30)100%);
+background-image: url(logo.jpg);
+background-size: cover ;
+background-position: center;
+height: 400px;
+color: white;
+margin-left: 20px;
+}
+.contain{
+  text-align: center;
+}
+.under{
+  background: red;
+  width: 180px;
+  border-radius: 8px;
+  height: 6px;
+  flex: 0%;
+  margin: auto;  ]
+}
+.my-button{
+  background-color: red;
+  color: white;
+  font-weight: 600px;
+  padding: 10px 20px ;
+  font-size: 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+.my-button:hover{
+  background-color: purple;
+  color: white;
+}
+.subtitle{
+  font-size: 24px;
+  font-weight: 600;
+}
+p{
+  font-size: 16px;
+}
+h1{
+  font-size: 48px;
+  font-weight: 700;
+}
+h2{
+  font-size: 38px;
+  font-weight: none;
+}
+.cargo{
+display: flex;
+padding: 20px;
+gap: 50px;
+}
+.colum2{
+  padding: 20px;
+}
+.car{
+  display: flex;
+  gap: 20px;
+  padding: 50px;
+  border-radius: 10px 10px 0px 0px;
+}
+.colu1 img{
+  border-radius: 10px 10px 0px 0px;
+}
+.colu2 img{
+  border-radius: 10px 10px 0px 0px;
+}
+.colu3 img{
+  border-radius: 10px 10px 0px 0px;
+}
+.latter{
+  text-align: center;
+  color: red;
+}
+.later{
+  text-align: center;
+}
+
+.back{
+  display: flex;
+  padding:20px;
+  background-color: yellow;
+ margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  gap: 200px;
+  justify-content: space-between;
+}
+.button-contan{
+  margin: 40px;
+}
+.list-form{
+  display: flex;
+  gap: 60px;
+}
+.btn{
+  padding: 10px 20px;
+  color: #fff;
+  background-color: red;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover{
+  color: #000;
+  background-color: blue;
+}
+.last{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: black;
+  color:white;
+  gap: 40px;
+  padding: 30PX;
+}
+.phot{
+display: flex;
+gap: 1
+0px;
+margin-bottom: 10px;
+justify-content: space-between; 
+}
+
+.copyright{
+  text-align: center;
+  background-color: black;
+  color: #fff;
+}
